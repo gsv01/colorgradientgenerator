@@ -1,0 +1,67 @@
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  
+  .info{
+    margin-top: 100px;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 28px; 
+  }
+  
+  .projector{
+    width: 80%;
+    height: 400px;
+    background: linear-gradient(to left,yellow,magenta); 
+    box-shadow: -10px 15px  3px black;
+  }
+  
+  .projector:hover{ 
+     transform: scale(1.05);
+     transition: .5s;
+  }
+  
+  
+  
+  .color1{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border: 2px solid gray;
+    margin: 10px;
+  }
+  
+  
+  
+  .color2{
+    width: 40px;
+    height: 40px;
+    background-color: magenta;
+    border: 2px solid gray;
+    margin: 10px;
+  }
+  
+  
+  .copyfrom{
+    padding: 15px;  
+    width: 100%;
+    background-color: #f2f2f2;
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 22px;
+    color: gray;
+    margin: 50px;
+  }
+  
+  .copyfrom:focus{
+    color: black;
+  }
+  
+  
+  
