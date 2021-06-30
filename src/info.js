@@ -1,11 +1,11 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './info.css'
 
 import {useSelector } from 'react-redux';
 import {selectData} from './reducer';
 
 
-import {store} from './store.js'
+ 
 
 
 export const Info = () => {
